@@ -1,7 +1,7 @@
 package model;
 
 
-public enum ContactType {
+enum ContactType {
     PHONE,
     MOBILE,
     SKYPE,

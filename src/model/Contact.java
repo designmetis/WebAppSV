@@ -1,7 +1,7 @@
 package model;
 
 
-public class Contact {
+class Contact {
     private final ContactType type;
     private final String value;
 

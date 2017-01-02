@@ -3,7 +3,7 @@ package model;
 
 import java.util.List;
 
-public class Resume {
+class Resume {
 
     private String fulName;
     private String location;
