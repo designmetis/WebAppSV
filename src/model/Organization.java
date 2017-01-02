@@ -3,7 +3,7 @@ package model;
 
 import java.util.List;
 
-class Organization {
+public class Organization {
     private Link link;
     private List<OrganizationPeriod> periods;
 

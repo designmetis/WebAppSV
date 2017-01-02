@@ -3,7 +3,7 @@ package model;
 
 import java.util.Date;
 
-class OrganizationPeriod {
+public class OrganizationPeriod {
 
     private Date startDate;
     private Date endDate;

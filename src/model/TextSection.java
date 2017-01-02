@@ -1,7 +1,7 @@
 package model;
 
 
-class TextSection extends Section{
+public class TextSection extends Section{
 
     private String title;
     private String comment;

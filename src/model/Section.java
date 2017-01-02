@@ -1,7 +1,7 @@
 package model;
 
 
-class Section {
+public class Section {
 
     protected SectionType type;
 

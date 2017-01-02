@@ -1,7 +1,7 @@
 package model;
 
 
- class Link {
+public class Link {
 
 
 }
