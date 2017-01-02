@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3eeaa55c-ecf4-4140-bd0b-d633832340b3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Contact.java" afterPath="$PROJECT_DIR$/src/model/Contact.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/ContactType.java" afterPath="$PROJECT_DIR$/src/model/ContactType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Link.java" afterPath="$PROJECT_DIR$/src/model/Link.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/MultiTextSection.java" afterPath="$PROJECT_DIR$/src/model/MultiTextSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Organization.java" afterPath="$PROJECT_DIR$/src/model/Organization.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/OrganizationPeriod.java" afterPath="$PROJECT_DIR$/src/model/OrganizationPeriod.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/OrganizationSection.java" afterPath="$PROJECT_DIR$/src/model/OrganizationSection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Resume.java" afterPath="$PROJECT_DIR$/src/model/Resume.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/Section.java" afterPath="$PROJECT_DIR$/src/model/Section.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/SectionType.java" afterPath="$PROJECT_DIR$/src/model/SectionType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/TextSection.java" afterPath="$PROJECT_DIR$/src/model/TextSection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -33,12 +23,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ContactType.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ContactType.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/ContactType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,14 +88,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SectionType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SectionType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/SectionType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+            <state relative-caret-position="187">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#256#257#0" expanded="true" />
                 <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
               </folding>
             </state>
@@ -164,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/runner/Main.java" />
         <option value="$PROJECT_DIR$/src/runner/RunnerModel.java" />
         <option value="$PROJECT_DIR$/src/model/Contact.java" />
-        <option value="$PROJECT_DIR$/src/model/ContactType.java" />
         <option value="$PROJECT_DIR$/src/model/Link.java" />
         <option value="$PROJECT_DIR$/src/model/MultiTextSection.java" />
         <option value="$PROJECT_DIR$/src/model/Organization.java" />
@@ -174,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/model/Section.java" />
         <option value="$PROJECT_DIR$/src/model/TextSection.java" />
         <option value="$PROJECT_DIR$/src/model/SectionType.java" />
+        <option value="$PROJECT_DIR$/src/model/ContactType.java" />
       </list>
     </option>
   </component>
@@ -740,7 +736,7 @@
       <workItem from="1482697672617" duration="1264000" />
       <workItem from="1483299772496" duration="9146000" />
       <workItem from="1483350746054" duration="1846000" />
-      <workItem from="1483390033798" duration="1504000" />
+      <workItem from="1483390033798" duration="1956000" />
     </task>
     <task id="LOCAL-00001" summary="Create model">
       <created>1483367607364</created>
@@ -763,11 +759,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483367940233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Enhance section type">
+      <created>1483391809054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483391809054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13760000" />
+    <option name="totallyTimeSpent" value="14212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -821,7 +824,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create model" />
     <MESSAGE value="Change public" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change public" />
+    <MESSAGE value="Enhance section type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Enhance section type" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -832,7 +836,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -883,6 +892,7 @@
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
@@ -926,7 +936,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-          <folding />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -969,6 +984,7 @@
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
           </folding>
         </state>
@@ -1060,14 +1076,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ContactType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Link.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1136,12 +1144,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/SectionType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="187">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#256#257#0" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
             <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ContactType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
