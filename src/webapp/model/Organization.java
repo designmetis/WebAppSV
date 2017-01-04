@@ -1,4 +1,4 @@
-package model;
+package webapp.model;
 
 
 import java.util.List;

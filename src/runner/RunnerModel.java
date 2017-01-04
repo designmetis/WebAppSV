@@ -1,7 +1,7 @@
 package runner;
 
-import model.Contact;
-import model.ContactType;
+import webapp.model.Contact;
+import webapp.model.ContactType;
 
 public class RunnerModel {
 

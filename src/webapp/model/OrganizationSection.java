@@ -1,7 +1,6 @@
-package model;
+package webapp.model;
 
 
-import java.util.Date;
 import java.util.List;
 
 public class OrganizationSection extends Section{
