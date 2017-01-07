@@ -1,6 +1,8 @@
 package webapp.model;
 
 
+import java.util.List;
+
 public class Contact {
     private final ContactType type;
     private final String value;
@@ -16,5 +18,11 @@ public class Contact {
 
     public String getValue() {
         return value;
+    }
+
+    static class OrganizationSection extends Section{
+
+        private List<Organization> values;
+
     }
 }
