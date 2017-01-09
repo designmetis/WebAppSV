@@ -1,45 +1,57 @@
 package webapp.storage;
 
 
+import webapp.WebAppException;
 import webapp.model.Resume;
 
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class ArrayStorage implements IStorage {
 
     public static final int LIMIT = 100;
     private Resume[] array = new Resume[LIMIT];
-    int idx = 0;
+    private int size = 0;
+
+    // protected Logger LOGGER = Logger.getLogger(getClass().getName());
+    private static Logger LOGGER = Logger.getLogger(ArrayStorage.class.getName());
 
 
 
     @Override
     public void clear() {
-
+        LOGGER.info("Delete all resumes");
+        Arrays.fill(array, null);
+        size = 0;
     }
 
     @Override
-    public void save(Resume r) {
+    public void save(Resume r) throws WebAppException {
 
-        for (int i = 0; i < LIMIT; i++) {
-            Resume resume = array[i];
-            if (resume != null) {
-                if (r.equals(resume)) {
-                    throw new IllegalStateException("Already present");
-                }
-            }
-        }
+        LOGGER.info("Save resume with uuid " + r.getUuid());
+        int idx = getIndex(r.getUuid());
 
-        for (int i = 0; i < LIMIT; i++) {
-            if (array[i] == null) {
-                array[i] = r;
-            }
-        }
+/*            try {
+                throw new WebAppException("Resume " + r.getUuid()+ "already exist", r);
+            } catch (WebAppException e) {
+                LOGGER.log(Level.SEVERE, e.getMessage(), e);
+            }*/
+
+        if (idx != -1)  throw new WebAppException("Resume " + r.getUuid()+ "already exist", r);
+        array[size++] = r;
+
     }
 
-    @Override
-    public void update(Resume resume) {
 
+    @Override
+    public void update(Resume r) throws WebAppException {
+        LOGGER.info("Update resume with " + r.getUuid());
+        int idx = getIndex(r.getUuid());
+
+        if (idx == -1)  throw new WebAppException("Resume " + r.getUuid()+ "not exist", r);
+        array[idx] = r;
     }
 
     @Override
@@ -61,4 +73,18 @@ public class ArrayStorage implements IStorage {
     public int size() {
         return 0;
     }
+
+    private int getIndex(String uuid) {
+        for (int i = 0; i < LIMIT; i++) {
+            if (array[i] != null) {
+                if (array[i].getUuid().equals(uuid)) {
+                    return i;
+                }
+            }
+        }
+        return -1;
+    }
+
+
+
 }
